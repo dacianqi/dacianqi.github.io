@@ -18,8 +18,8 @@ _4ORMAT.theme_jQuery = (typeof(jQuery) == 'undefined') ? undefined : jQuery;
  *
  * Copyright (c) 2006 Klaus Hartl (stilbuero.de)
  * Dual licensed under the MIT and GPL licenses:
- * http://www.opensource.org/licenses/mit-license.php
- * http://www.gnu.org/licenses/gpl.html
+ * https://www.opensource.org/licenses/mit-license.php
+ * https://www.gnu.org/licenses/gpl.html
  *
  */
 
@@ -184,7 +184,7 @@ _4ORMAT.ImageProtection = {
     availableNetworks = {
       facebook: {
         label: 'Share to Facebook',
-        url: 'http://www.facebook.com/sharer/sharer.php?u={url}',
+        url: 'https://www.facebook.com/sharer/sharer.php?u={url}',
         popup: {
           width: 540
         }
@@ -202,14 +202,14 @@ _4ORMAT.ImageProtection = {
       },
       tumblr: {
         label: 'Post to Tumblr',
-        url: 'http://www.tumblr.com/share/link?url={url}',
+        url: 'https://www.tumblr.com/share/link?url={url}',
         popup: {
           width: 540
         }
       },
       pinterest: {
         label: 'Post to Pinterest',
-        url: 'http://pinterest.com/pin/create/button/?url={url}&media={image}&description={text}',
+        url: 'https://pinterest.com/pin/create/button/?url={url}&media={image}&description={text}',
         vars: {
           text: '{title} {url} via format.com'
         },
